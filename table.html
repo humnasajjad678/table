@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="#808E97">
+  
+   
+    <h1 style="color:#033452 ; text-align: center;"><b><u>TABLE</u></b></h1>
+    
+     
+
+
+  
+      
+  <form >
+    <legend>TABLE</legend><br>
+    
+<label for="table"></label>
+<input type="number" id="table"><br><br>
+<button onclick="tab()">CALCULATE</button>
+
+  </form>
+   
+<script>
+  
+function tab(){
+ let tabl=document.querySelector("#table").value
+  document.write("<ul>")    
+document.write("<h2>")
+    for(var a=1; a<=10; a++){
+      document.write(tabl + "x" + a + "=" + (tabl*a) + "<br>")
+    }
+document.write("</h2>")
+document.write("</ul>")
+
+
+}
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+</body>
+</html>
